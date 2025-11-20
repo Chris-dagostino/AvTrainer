@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AvTrainer - Personal Training & Nutrizione</title>
     
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <link rel="stylesheet" href="{{ asset('build/assets/app-OcVQNDiz.css') }}">
+<script src="{{ asset('build/assets/app-CAICLEjY.js') }}"></script>
 </head>
 <body class="bg-gray-950 text-gray-100">
     
