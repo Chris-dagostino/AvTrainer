@@ -5,7 +5,12 @@ nixPkgs = ['php82', 'php82Packages.composer']
 cmds = ['composer install --no-dev --optimize-autoloader']
 
 [phases.build]
-cmds = ['npm ci', 'npm run build']
+cmds = [
+  'npm ci', 
+  'npm run build',
+  'chmod +x railway.sh',
+  './railway.sh'
+]
 
 [start]
 cmd = 'php artisan serve --host=0.0.0.0 --port=$PORT'
