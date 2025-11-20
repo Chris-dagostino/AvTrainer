@@ -8,8 +8,9 @@ cmds = ['composer install --no-dev --optimize-autoloader']
 cmds = [
   'npm ci', 
   'npm run build',
-  'chmod +x railway.sh',
-  './railway.sh'
+  'touch database/database.sqlite',
+  'chmod 664 database/database.sqlite',
+  'php artisan migrate --force --no-interaction'
 ]
 
 [start]
