@@ -1,0 +1,4 @@
+/* Direttive Tailwind - importano tutti gli stili base */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
