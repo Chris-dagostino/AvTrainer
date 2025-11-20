@@ -16,9 +16,9 @@
             <div class="flex justify-between items-center">
                 <!-- Logo -->
                 <h1 class="text-2xl font-black">
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">
-                        💪 AvTrainer
-                    </span>
+                    <a href="#" class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">
+                        💪 AvTrainer 🤙
+                    </a>
                 </h1>
                 
                 <!-- Menu desktop -->
@@ -58,7 +58,7 @@
                     </span>
                     <br />
                     Raggiungi i tuoi
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-green-500">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-red-500">
                         obiettivi
                     </span>
                 </h2>
@@ -71,10 +71,18 @@
                 
                 <!-- CTA Buttons -->
                 <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-                    <a href="#contatti" 
-                       class="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-gradient-to-r from-orange-500 to-red-600 rounded-xl overflow-hidden shadow-2xl shadow-orange-500/50 hover:shadow-orange-500/80 transition-all duration-300 hover:scale-105">
+
+                    <a href="/prenota" 
+                        class="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-gradient-to-r from-orange-500 to-red-600 rounded-xl overflow-hidden shadow-2xl shadow-orange-500/50 hover:shadow-orange-500/80 transition-all duration-300 hover:scale-105">
                         <span class="relative z-10">🔥 Prenota Consulenza Gratuita</span>
                     </a>
+
+                    <!-- <a href="IL_TUO_LINK_GOOGLE_CALENDAR_QUI" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-gradient-to-r from-orange-500 to-red-600 rounded-xl overflow-hidden shadow-2xl shadow-orange-500/50 hover:shadow-orange-500/80 transition-all duration-300 hover:scale-105">
+                        <span class="relative z-10">🔥 Prenota Consulenza Gratuita</span>
+                    </a> -->
                     
                     <a href="#servizi" 
                        class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-gray-800 hover:bg-gray-700 rounded-xl border-2 border-gray-700 hover:border-orange-500 transition-all duration-300">
@@ -162,6 +170,46 @@
             </div>
         </section>
 
+        <!-- TESTIMONIANZE SECTION -->
+        <section id="servizi" class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-900/50">
+            <div class="max-w-7xl mx-auto">
+                
+                <div class="text-center mb-16">
+                    <h3 class="text-4xl sm:text-5xl font-black mb-4">
+                        <span class="text-orange-500">TESTIMONIANZE</span> dei miei clienti
+                    </h3>
+                    <p class="text-gray-400 text-lg">
+                        Soluzioni programmate per ogni persona
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    
+                    <!-- Card 1: Training -->
+                    <div class="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-gray-800 hover:border-orange-500 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/20 hover:-translate-y-2">
+                        <div class="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🏋</div>
+                        <h4 class="text-2xl font-bold mb-4 text-white">Luca</h4>
+    
+                    </div>
+                    
+                    <!-- Card 2: Nutrizione -->
+                    <div class="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-gray-800 hover:border-lime-500 transition-all duration-300 hover:shadow-2xl hover:shadow-lime-500/20 hover:-translate-y-2">
+                        <div class="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🤸‍♀️</div>
+                        <h4 class="text-2xl font-bold mb-4 text-white">Giovanna</h4>
+                        
+                    </div>
+                    
+                    <!-- Card 3: Coaching -->
+                    <div class="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-gray-800 hover:border-red-500 transition-all duration-300 hover:shadow-2xl hover:shadow-red-500/20 hover:-translate-y-2">
+                        <div class="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🏃‍♂️</div>
+                        <h4 class="text-2xl font-bold mb-4 text-white">Pietro</h4>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- FOOTER -->
@@ -184,16 +232,19 @@
                     <h4 class="text-lg font-bold mb-4">Contattami</h4>
                     <div class="space-y-3">
                         <a href="mailto:info@avtrainer.it" 
+                        target="_blank"
                            class="flex items-center gap-3 text-gray-400 hover:text-orange-500 transition">
                             <span>📧</span>
                             <span>info@avtrainer.it</span>
                         </a>
                         <a href="https://wa.me/3460123371" 
+                        target="_blank"
                            class="flex items-center gap-3 text-gray-400 hover:text-lime-500 transition">
                             <span>📱</span>
                             <span>WhatsApp: +39 312 345 6789</span>
                         </a>
                         <a href="https://instagram.com/avtrainer" 
+                        target="_blank"
                            class="flex items-center gap-3 text-gray-400 hover:text-pink-500 transition">
                             <span>📸</span>
                             <span>@avtrainer</span>

@@ -13,3 +13,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+// Route per la pagina prenotazioni
+Route::get('/prenota', function () {
+    return view('prenota');
+});
